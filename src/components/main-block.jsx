@@ -32,7 +32,7 @@ function MainBlock() {
                             <h1 className="main-heading">Childhood Cancer Changes Everything</h1>
                         
                             <p className="description">
-                                The Wolf Pack Cancer Foundation exists to raise and invest funds to develop new and better cancer treatments and support for children and their families. Together, we can help kids with cancer and their families with financial and emotional support.
+                                The Wolfpack Cancer Foundation exists to raise and invest funds to develop new and better cancer treatments and support for children and their families. Together, we can help kids with cancer and their families with financial and emotional support.
                             </p>
 
                             <a href="https://animalfoundation.com/donate" target="_blank">
