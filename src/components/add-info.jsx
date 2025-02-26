@@ -1,7 +1,7 @@
 function AddInfo() {
     return ( 
         <>
-            <section className="additional-info">
+            <section className="additional-info" id="help">
                 <div className="container">
                     <h1 className="header"><span className="important">Ease the burden</span> for kids with cancer and their families</h1>
                     <div className="card-holder">

@@ -14,7 +14,7 @@ function MainBlock() {
                         <div className="links">
                             <a href="#main" className="link-header">MAIN</a>
                             <a href="#who-we-are" className="link-header">WHO WE ARE</a>
-                            <a href="#stories" className="link-header">STORIES</a>
+                            <a href="#help" className="link-header">HELP PROGRAMS</a>
                             <a href="#contacts" className="link-header">CONTACT US</a>
                         </div>
                         

@@ -13,7 +13,7 @@ code {
 }
 
 .main-block{
-  background: #ccddff;
+  background: #cebac1;
   overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ nav{
 }
 
 .link-header{
-  color: #1876e9;
+  color: #575364;
   text-decoration: none !important;
   margin-left: 20px;
   margin-right: 20px;
@@ -48,8 +48,8 @@ nav{
 }
 
 .donate-button{
-  border: 2px solid #1876e9;
-  background: #1876e9;
+  border: 2px solid #575364;
+  background: #575364;
   color: #fff;
   transition: 0.5s ease-in-out;
   font-weight: bold;
@@ -60,14 +60,14 @@ nav{
 .donate-button:hover{
   border: 2px solid white;
   background: white;
-  color: #1876e9;
+  color: #575364;
   cursor: pointer !important;
 }
 
 .main-heading{
   font-size: 60px;
   text-transform: uppercase;
-  color: #1876e9;
+  color: #575364;
   font-weight: bold;
   text-wrap: balance;
 }
@@ -114,7 +114,7 @@ nav{
   font-weight: bold;
   font-size: 45px;
   margin-bottom: 40px;
-  color: #1876e9;
+  color: #575364;
   text-wrap: balance;
 }
 
@@ -150,7 +150,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #ccddff;
+  background: #cebac1;
   padding: 20px;
   padding-top: 25px;
   margin-bottom: 60px;
@@ -181,7 +181,7 @@ nav{
   margin-bottom: 0;
   font-size: 45px;
   font-weight: bold;
-  color: #1876e9 !important;
+  color: #575364 !important;
 }
 
 .text-part p{
@@ -212,7 +212,7 @@ nav{
 }
 
 .important{
-  color: #1876e9;
+  color: #575364;
   font-weight: bold;
 }
 
@@ -254,13 +254,13 @@ nav{
 }
 
 .footer-up{
-  background: #ccddff;
+  background: #cebac1;
 }
 
 .blog h1{
   font-size: 45px;
   font-weight: bold;
-  color: #1876e9;
+  color: #575364;
 }
 
 .blog-posts{
@@ -289,7 +289,7 @@ nav{
 }
 
 .about-block-updated{
-  background: #ccddff;
+  background: #cebac1;
 }
 
 hr{
@@ -299,7 +299,7 @@ hr{
 
 .footer-down{
   color: white;
-  background: #1876e9;
+  background: #575364;
   padding: 15px 0px;
 }
 
@@ -326,7 +326,7 @@ footer .logo{
 .footer-up h2{
   font-size: 35px;
   font-weight: bolder;
-  color: #1876e9 !important;
+  color: #575364 !important;
   margin-top: 20px;
 }
 
@@ -383,14 +383,14 @@ form{
 
 .flex-row input{
   width: 49%;
-  border: 2px solid #1876e9;
+  border: 2px solid #575364;
   padding: 5px 10px;
   font-size: 20px;
 }
 
 .single input{
   width: 100%;
-  border: 2px solid #1876e9;
+  border: 2px solid #575364;
   padding: 5px 10px;
   font-size: 20px;
   margin-top: 20px;
@@ -398,7 +398,7 @@ form{
 
 form textarea{
   width: 100%;
-  border: 2px solid #1876e9;
+  border: 2px solid #575364;
   padding: 5px 10px;
   font-size: 20px;
   margin-top: 20px;
@@ -415,7 +415,7 @@ form .donate-button{
   padding-bottom: 10px !important;
   margin-bottom: 0px !important;
   font-weight: bolder;
-  color: #1876e9;
+  color: #575364;
   text-wrap: balance;
 }
 
@@ -474,7 +474,7 @@ form .donate-button{
 .main{
   font-size: 35px !important;
   margin-bottom: 20px !important;
-  color: #1876e9 !important;
+  color: #575364 !important;
   font-weight: bolder;
   margin-top: 0px !important;
 }
@@ -526,7 +526,7 @@ form .donate-button{
 
 .card{
   width: 30%;
-  background: #1876e9 !important;
+  background: #575364 !important;
   padding: 20px;
 }
 
@@ -551,10 +551,25 @@ form .donate-button{
   color: white;
 }
 
+@media screen and (max-width: 1150px) {
+  .card .heading {
+    font-size: 34px;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .link-header{
     display: none;
   }
+  .card-holder {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 300px;
+    margin: 20px;
+  }
+
   .main-block-image img {
     width: 100%;
     height: auto;
@@ -580,6 +595,16 @@ form .donate-button{
   }
   .gift-img-wrapper img {
     width: 80%;
+  }
+
+  .data-block{
+    flex-wrap: wrap;
+  }
+
+  .data-item{
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .gift-wrapper .text-part{
@@ -627,5 +652,8 @@ form .donate-button{
   }
   .left-wrapper-updated{
     margin-top: 0px !important;
+  }
+  .data-item{
+    width: 100%;
   }
 }
