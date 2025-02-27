@@ -18,7 +18,7 @@ function MainBlock() {
                             <a href="#contacts" className="link-header">CONTACT US</a>
                         </div>
                         
-                        <a href="https://animalfoundation.com/donate" target="_blank">
+                        <a href="https://childrenscancerfoundation.org/how-to-help/donate/" target="_blank">
                             <button className="donate-button">
                                 DONATE
                             </button>
@@ -35,7 +35,7 @@ function MainBlock() {
                                 The Wolfpack Cancer Foundation exists to raise and invest funds to develop new and better cancer treatments and support for children and their families. Together, we can help kids with cancer and their families with financial and emotional support.
                             </p>
 
-                            <a href="https://animalfoundation.com/donate" target="_blank">
+                            <a href="https://childrenscancerfoundation.org/how-to-help/donate/" target="_blank">
                                 <button className="donate-button">
                                     DONATE
                                 </button>

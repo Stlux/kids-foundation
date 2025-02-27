@@ -525,7 +525,7 @@ form .donate-button{
 }
 
 .card{
-  width: 30%;
+  width: 22%;
   background: #575364 !important;
   padding: 20px;
 }
@@ -538,7 +538,7 @@ form .donate-button{
 
 .card .heading{
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   color: white;
   margin-top: 20px;
@@ -551,6 +551,17 @@ form .donate-button{
   color: white;
 }
 
+@media screen and (max-width: 1200px) {
+  .card-holder {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 300px;
+    margin: 20px;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .card .heading {
     font-size: 34px;
@@ -561,15 +572,6 @@ form .donate-button{
   .link-header{
     display: none;
   }
-  .card-holder {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .card {
-    width: 300px;
-    margin: 20px;
-  }
-
   .main-block-image img {
     width: 100%;
     height: auto;

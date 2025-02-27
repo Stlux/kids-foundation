@@ -38,7 +38,7 @@ function Contacts() {
                                 <p>
                                     Our support goes straight to work saving lives. Become a WPC today <span className="important">to help provide direct financial support</span> families facing childhood cancer can count on year-round.
                                 </p>
-                                <a href="https://animalfoundation.com/donate" target="_blank">
+                                <a href="https://childrenscancerfoundation.org/how-to-help/donate/" target="_blank">
                                     <button className="donate-button mt-20">BECOME A DONATOR</button>
                                 </a>
                                 <div className="img-wrapper">

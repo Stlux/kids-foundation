@@ -36,7 +36,7 @@ function GiveAGift() {
                                                 Your donation provides food and medical care. Make a difference today!
                                             </p>
                                             
-                                            <a href="https://animalfoundation.com/donate" target="_blank">
+                                            <a href="https://childrenscancerfoundation.org/how-to-help/donate/" target="_blank">
                                                 <button className="donate-button">
                                                     BECOME A DONATOR
                                                 </button>

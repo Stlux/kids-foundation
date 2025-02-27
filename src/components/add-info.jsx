@@ -5,10 +5,17 @@ function AddInfo() {
                 <div className="container">
                     <h1 className="header"><span className="important">Ease the burden</span> for kids with cancer and their families</h1>
                     <div className="card-holder">
+
                         <div className="card">
                             <div className="icon"><i className="bi bi-house-fill"></i></div>
                             <div className="heading">Housing</div>
                             <div className="text">Keep families in their homes with rent, mortgage, and utility payments.</div>
+                        </div>
+
+                        <div className="card">
+                            <div className="icon"><i className="bi bi-bandaid-fill"></i></div>
+                            <div className="heading">Healthcare</div>
+                            <div className="text">Support families with medical bills, insurance costs, and essential medications.</div>
                         </div>
 
                         <div className="card">
@@ -22,6 +29,7 @@ function AddInfo() {
                             <div className="heading">Transportation</div>
                             <div className="text">Provide families with gas cards and car payments.</div>
                         </div>
+                        
                     </div>
                 </div>
             </section>

@@ -13,7 +13,6 @@ function App() {
     <>
       <MainBlock />
       <GiveAGift />
-      <Impact />
       <AboutBlock />
       <AddInfo />
       <Contacts />
