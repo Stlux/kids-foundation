@@ -551,6 +551,42 @@ form .donate-button{
   color: white;
 }
 
+footer{
+  position: relative;
+  background: #cebac1;
+}
+
+.row-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-special-p {
+  position: relative;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+
+.image-special-p img{
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.image-special-p p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
   .card-holder {
     flex-wrap: wrap;
@@ -569,6 +605,9 @@ form .donate-button{
 }
 
 @media screen and (max-width: 990px) {
+  .image-special-p{
+    display: none;
+  }
   .link-header{
     display: none;
   }
